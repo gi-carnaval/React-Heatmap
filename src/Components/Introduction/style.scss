@@ -1,0 +1,43 @@
+.introductionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20%;
+  padding-top: 5rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 30px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+
+    a {
+      color: #149ECA;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
+    code {
+      color: white;
+      padding: 1px 0.5rem;
+      font-size: calc(1em - 10%) !important;
+      display: inline;
+      border-radius: 0.375rem;
+      background-color: #2f333c;
+    }
+  }
+}

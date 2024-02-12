@@ -1,0 +1,62 @@
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15%;
+
+  padding-top: 5rem;
+
+  ol {
+    margin: 0 2rem;
+    li {
+      list-style-type: decimal;
+      display: list-item;
+      gap: 1rem;
+
+      h4{
+        margin-bottom: 1rem
+      }
+
+      code {
+        display: block;
+        color: white;
+        margin: 2rem 0;
+        padding: 1rem 1rem;
+        font-size: calc(1em - 10%) !important;
+        // display: inline;
+        border-radius: 0.375rem;
+        background-color: #2f333c;
+        overflow-wrap: break-word;
+      }
+    }
+  }
+
+  .author {
+    margin: 5rem 0;
+    border: solid 1px black;
+    padding: 2rem;
+    display: flex;
+    gap: 5rem;
+    box-shadow: 0px 28px 110px 0px rgba(10, 10, 14, 0.75);
+
+    .content {
+      h3 {
+        font-size: 2rem;
+      }
+
+      h4 {
+        font-size: 1.25rem;
+      }
+    }
+
+    aside {
+      width: 40%;
+
+      img {
+        border-radius: 50%;
+        width: 100%;
+      }
+    }
+  }
+}

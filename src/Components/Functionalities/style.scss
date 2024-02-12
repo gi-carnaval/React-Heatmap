@@ -1,0 +1,30 @@
+.functionalitiesSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20%;
+
+  padding-top: 5rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.25rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    line-height: 30px;
+    
+    a {
+      color: #149ECA;
+      text-decoration: none;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
