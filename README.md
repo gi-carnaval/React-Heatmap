@@ -45,26 +45,18 @@ O objetivo deste projeto é fornecer uma compreensão prática de como integrar 
 
     Abra seu navegador e acesse `http://localhost:3000`.
 
-## Estrutura do Projeto
+## Autor
 
-- `src/`: Contém os arquivos do código-fonte.
-    - `components/`: Componentes React, incluindo o componente do mapa.
-    - `styles/`: Arquivos de estilos Sass.
-    - `utils/`: Utilitários diversos para o projeto.
-- Arquivos de configuração:
-    - `vite.config.js`: Configuração do Vite.
-    - `.env`: Arquivo de variáveis de ambiente para a chave da API do Google Maps.
+👤 **Giovani Carnaval**
 
-## Próximos Passos
+* Linkedin: [@Gi-Carnaval](https://www.linkedin.com/in/giovani-carnaval/)
+* Github: [@Gi-Carnaval](https://github.com/gi-carnaval)
 
-- Explorar outras funcionalidades da API do Google Maps.
-- Implementar mais interatividade no mapa, como marcadores e informações adicionais.
-- Aperfeiçoar a estilização e a experiência do usuário.
+## Mostre seu apoio
 
-## Contribuição
+Deixe uma ⭐️ se este projeto foi útil!
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
+***
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
