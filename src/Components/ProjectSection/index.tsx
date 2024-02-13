@@ -7,7 +7,7 @@ export const ProjectSection = () => {
       <p>
         Você pode encontrar o projeto completo no repositório do github: <a href="https://github.com/gi-carnaval/React-Heatmap">Heatmap Study</a>
       </p>
-      <div>
+      <div className="instructions">
         <h3>Como Executar o Projeto</h3>
         <ol>
           <li>

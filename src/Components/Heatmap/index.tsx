@@ -1,4 +1,5 @@
 import { GoogleMap, HeatmapLayer, Libraries, useJsApiLoader } from "@react-google-maps/api"
+
 import { useState } from "react"
 import './style.scss'
 
@@ -7,8 +8,6 @@ export function Heatmap() {
   const [libraries] = useState<Libraries>(['visualization']);
   const [center] = useState<google.maps.LatLngLiteral>({ lat: -22.97867042762809, lng: -49.86777833855092 })
   const [locations, setLocations] = useState<google.maps.LatLngLiteral[]>([])
-
-  
 
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: API_KEY,
