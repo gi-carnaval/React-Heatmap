@@ -32,14 +32,12 @@ export const ProjectSection = () => {
           </li>
           <li>
             <h4>Execute o projeto:</h4>
-            <p>Crie um arquivo `.env` na raiz do projeto e adicione sua chave da API do Google Maps:</p>
             <code>
             npm run dev
             </code>
           </li>
           <li>
             <h4>Acesse o aplicativo:</h4>
-            <p>Crie um arquivo `.env` na raiz do projeto e adicione sua chave da API do Google Maps:</p>
             <code>
             Abra seu navegador e acesse `http://localhost:3000`.
             </code>

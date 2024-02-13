@@ -6,7 +6,7 @@ export const IntroductionSection = () => {
       <h2>Introdução</h2>
       <ul>
         <p>
-          O objetivo deste projeto de estudo é explorar a integração da API do Google Maps com o framework <code>React</code>, utilizando a biblioteca <a href="https://www.npmjs.com/package/@react-google-maps/api">@react-google-maps/api</a>.
+          O objetivo deste projeto de estudo é explorar a integração da API do Google Maps com o framework <code>React</code>, utilizando a biblioteca <a target='_blank' href="https://www.npmjs.com/package/@react-google-maps/api">@react-google-maps/api</a>.
           A criação de mapas interativos é uma parte essencial de muitas aplicações modernas, desde aplicativos de navegação até plataformas de entrega de alimentos. Este projeto visa fornecer uma compreensão prática de como integrar mapas dinâmicos em aplicativos web utilizando as tecnologias mais recentes.
         </p>
         <p>
