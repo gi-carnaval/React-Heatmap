@@ -8,6 +8,8 @@ export function Heatmap() {
   const [center] = useState<google.maps.LatLngLiteral>({ lat: -22.97867042762809, lng: -49.86777833855092 })
   const [locations, setLocations] = useState<google.maps.LatLngLiteral[]>([])
 
+  
+
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: API_KEY,
     libraries
@@ -30,6 +32,7 @@ export function Heatmap() {
       newPoint
     ])
   }
+  
 
   return (
     <>
@@ -56,6 +59,9 @@ export function Heatmap() {
                 new google.maps.LatLng(data.lat, data.lng)
               ))}
               options={{
+                data:  locations.map((data) => (
+                  new google.maps.LatLng(data.lat, data.lng)
+                )),
                 radius: 40,
                 opacity: 0.4
               }}
