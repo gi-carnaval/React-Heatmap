@@ -27,7 +27,7 @@ export const ProjectSection = () => {
             <h4>Configure a chave da API do Google Maps:</h4>
             <p>Crie um arquivo `.env` na raiz do projeto e adicione sua chave da API do Google Maps:</p>
             <code>
-              REACT_APP_GOOGLE_MAPS_API_KEY=SuaChaveAqui
+            VITE_API_KEY=SuaChaveAqui
             </code>
           </li>
           <li>
