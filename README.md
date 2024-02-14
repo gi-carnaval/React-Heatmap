@@ -45,6 +45,10 @@ O objetivo deste projeto é fornecer uma compreensão prática de como integrar 
 
     Abra seu navegador e acesse `http://localhost:3000`.
 
+## Acesse o projeto no link:
+
+*Projeto funcionando: [Heatmap - React](https://heatmap.giovani-carnaval.com)
+
 ## Autor
 
 👤 **Giovani Carnaval**
